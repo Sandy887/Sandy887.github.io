@@ -298,7 +298,8 @@ permalink: /:categories/:title/
 # paginate_path: /page:num/
 timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-
+# Disable Jekyll’s LiveReload watcher entirely
+livereload: false
 # Plugins
 plugins:
   - jekyll-feed
